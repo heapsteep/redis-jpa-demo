@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.heapsteep</groupId>
-    <artifactId>cache-demo-maven</artifactId>
+    <artifactId>redis-jpa-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cache-demo-maven</name>
-    <description>JPA with H2 Maven</description>
+    <name>redis-jpa-demo</name>
+    <description>Redis JPA with H2 Maven</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -27,15 +27,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-cache</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.cache</groupId>
-            <artifactId>cache-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.ehcache</groupId>
-            <artifactId>ehcache</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
 
         <dependency>
