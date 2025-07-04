@@ -28,7 +28,7 @@ public class MyController {
 		return myService.updatePerson(person,id);
 	}
 
-	@GetMapping("getPersonById/{id}")
+	@GetMapping("/getPersonById/{id}")
 	public Person getPersonById(@PathVariable String id){
 		return myService.getPersonById(id);
 	}
